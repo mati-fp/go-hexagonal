@@ -18,7 +18,7 @@ RUN chown -R www-data:www-data /go /var/www/.cache /go/src
 # Copiando o script de entrada
 COPY entrypoint.sh /entrypoint.sh
 
-USER www-data
+# USER www-data
 
 # Configurando o ponto de entrada
 ENTRYPOINT ["/entrypoint.sh"]

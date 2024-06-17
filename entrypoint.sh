@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Garantir que o diretório de trabalho tem as permissões corretas
-chown -R www-data:www-data /go/src
+# chown -R www-data:www-data /go/src
 
 # Verificar se o arquivo go.mod já existe
 if [ -f "go.mod" ]; then
